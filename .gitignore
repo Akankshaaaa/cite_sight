@@ -1,0 +1,77 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+.conda/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.pydevproject
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local development settings
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Project specific
+logs/
+temp/
+output/
+data/raw/
+data/processed/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Dependency management
+pip-log.txt
+pip-delete-this-directory.txt
+
+# System Files
+Thumbs.db
+.DS_Store
+*.bak
+*.tmp
+*.temp 
